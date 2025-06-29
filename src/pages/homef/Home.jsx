@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/header/Header";
 import Featured from "../../components/featured/Featured";
 import PropertyList from "../../components/propertylist/PropertyList";
-import Featuredproperties from "../../components/featuredproperties/featuredproperties";
+import Featuredproperties from "../../components/featuredproperties/Featuredproperties";
 import MailList from "../../components/MailList/MailList";
 import Footer from "../../components/footer/Footer";
 
