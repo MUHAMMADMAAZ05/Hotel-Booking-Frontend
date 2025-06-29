@@ -21,8 +21,7 @@ const Home=()=>{
                 <Featuredproperties/>
                 <MailList/>
                 <Footer/>
-            </div>
-            
+            </div>   
         </div>
     )
 }
