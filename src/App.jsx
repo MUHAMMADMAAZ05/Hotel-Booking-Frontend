@@ -1,6 +1,5 @@
-import React from 'react'
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import {  Route, Routes } from 'react-router-dom'
 import Home from './pages/home/home'
 import List from './pages/list/list'
 import Hotel from './pages/hotel/Hotel'
@@ -9,14 +8,12 @@ function App() {
   
 
   return (
-    <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/hotels' element={<List/>}/>
       <Route path='/hotels/:id' element={<Hotel/>}/>
 
     </Routes>
-    </BrowserRouter>
   )
 }
 
